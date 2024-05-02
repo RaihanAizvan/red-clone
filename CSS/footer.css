@@ -1,0 +1,57 @@
+.footer {
+  background-color: #000000;
+  color: white;
+  height: 250px;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  font-family: "barlow";
+}
+.footer-item {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-top: 30px;
+}
+.subscribe-section {
+  margin-bottom: 20px;
+  width: 640px;
+  height: 35px;
+  border: 1px solid white;
+}
+.subscribe-section input[type="email"] {
+  padding:0  10px 10px 10px;
+  margin-right: 10px;
+  width: 370px;
+  color: white;
+  background-color: transparent;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.subscribe-section button {
+  padding:0  10px 10px 10px;
+  /* border-left:  1px solid white; */
+  /* border-right:  1px solid rgb(0, 0, 0);s */
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.links-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.links-section span {
+  margin: 0 10px;
+}
+.logo-section img {
+  width: 50px;
+  height: auto;
+  margin: 0 5px;
+}
+.copyright{
+  margin-top: -10px;
+  font-size: 15px;
+}

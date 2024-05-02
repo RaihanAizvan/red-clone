@@ -1,0 +1,104 @@
+.header-container-div {
+  /* margin-top: 50px; */
+  position: relative;
+  position: absolute;
+  background-color: black;
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  display: flex;
+  z-index: 2;
+  padding-left: 25px;
+}
+.header-left-section-div {
+  background-color: rgb(0, 0, 0);
+  width: 165px;
+  height: 100%;
+}
+.header-left-section-div img {
+  padding-top: 25px;
+  padding-left: 25px;
+  width: 120px;
+}
+  
+/*middle section*/
+
+.header-middle-section-div {
+  flex: 6;
+  background-color: rgb(0, 0, 0);
+}
+.header-middle-section-div {
+  display: flex;
+  gap: 27px;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  padding-top: 6px;
+}
+.header-middle-section-div a {
+  text-decoration: none;
+}
+.middle-element {
+  color: white;
+  border-left: 2px solid rgb(100, 100, 100);
+  padding: 15px;
+  /* padding-right: 1px; */
+  padding-left: 36px;
+  margin-top: 4px;
+  font-family: barlow, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.camera-section-div {
+  border: none;
+  
+}
+.top-middle-line {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  top: 0;
+}
+.bottom-middle-line {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 27px;
+  bottom: 0;
+}
+
+/*Right section*/
+
+.header-right-section-div {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  width: 240px;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding-top: 10px;
+}
+
+.header-right-section-div svg,
+.header-right-section-div img {
+  z-index: 2;
+  width: 30px;
+  cursor: pointer;
+}
+
+#cart {
+  height: auto;
+}
+#Capa_1 {
+  height: 28px;
+  padding-bottom: 2px;
+}
+
+#hamburger-menu {
+  margin-right: 56px;
+}

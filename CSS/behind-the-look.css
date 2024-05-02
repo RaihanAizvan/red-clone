@@ -1,0 +1,18 @@
+.behind-the-look-container-div{
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+    position: relative;
+    background-image: url(../Drawables/Images/girl-in-cofee-shop.jpg);
+    background-position: 50% 50%;
+}
+
+.behind-the-look-img{
+    width: 400px;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;    
+}

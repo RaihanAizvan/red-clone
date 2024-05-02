@@ -1,0 +1,48 @@
+.shot-on-red-div {
+  width: 100%;
+  height: 430px;
+}
+.marquee-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 425px;
+  }
+  
+  .marquee {
+    display: inline-block;
+    animation: marquee 100s linear infinite; 
+    white-space: nowrap;
+    
+  }  
+  .marquee img {
+    display: inline-block; 
+    margin-right: -4px;    
+    }
+  
+  @keyframes marquee {
+    0%   {
+      transform: translateX(100%-100vw); 
+    }
+    100% { 
+      transform: translateX(calc(-100% + 100vw)); 
+    }
+  }
+  
+  .marque-outer-fade-div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  .marque-outer-fade-div img{
+    width: 274px;
+    position: absolute;
+  }
+  
